@@ -4,7 +4,6 @@ Teste Técnico - Back End - Attornatus
 
 **DOCUMENTAÇÂO**
 
-########################Documentação#################################
 
 - **Dependencias necessarias**
 Certifique-se de que você tenha o Spring Boot instalado e crie um novo projeto Spring Boot usando o Spring Initializr (https://start.spring.io/).
@@ -15,7 +14,7 @@ focando principalmente no gerencimaento de pessoas e seus endereços
 
 
 
-- #Requisitos de Sistema
+- Requisitos de Sistema
 Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 Java Development Kit (JDK) 8 ou superior
@@ -23,11 +22,11 @@ Maven (para compilação e gerenciamento de dependências)
 Um ambiente de desenvolvimento integrado (IDE) como o Eclipse, IntelliJ IDEA ou Spring Tool Suite (STS)
 
 
-- #Configuração do banco de Dados
+- Configuração do banco de Dados
 esse projeto utiliza banco de dados H2, com suas configurações definidas no arquivo
 src/main/resources/application.properties
 
-- #Execução do projeto pelo terminal
+- Execução do projeto pelo terminal
 No diretorio Raiz, execute o comando Maven para compilar o projeto
 mvn clean install
 
@@ -37,21 +36,21 @@ mvn spring-boot:run
 A APLICAÇÃO SERÁ EXECUTADA NA PORTA PADRÃO 8080.
 
 
-- #Api e seus Endpoints:
+- Api e seus Endpoints:
 
-##Pessoas:
+#Pessoas:
 Criar pessoa: POST /api/pessoas
 Editar pessoa: PUT /api/pessoas/{id}
 Consultar pessoa por ID: GET /api/pessoas/id
 Listar todas as pessoas: GET /api/ṕessoas
 
-##Endereços
+#Endereços
 Criar Endereço: POST /api/pessos/{pessoaId}/enderecos7
 Listar endereços de uma pessoa: GET /api/pessoas/{pessoasId}/enderecos
 Definir endereço principal
 /api/pessoas/{pessoaId}/enderecos/{enderecoId}/principal
 
-#Exemplos de requisições: 
+-Exemplos de requisições: 
 Criar Pessoa: 
 curl -X POST -H "Content-Type: application/json" -d '{
   "nome": "Italo",
