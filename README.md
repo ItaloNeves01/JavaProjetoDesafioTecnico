@@ -40,15 +40,23 @@ A APLICAÇÃO SERÁ EXECUTADA NA PORTA PADRÃO 8080.
 
 #Pessoas:
 Criar pessoa: POST /api/pessoas
+
 Editar pessoa: PUT /api/pessoas/{id}
+
 Consultar pessoa por ID: GET /api/pessoas/id
+
 Listar todas as pessoas: GET /api/ṕessoas
 
 #Endereços
+
 Criar Endereço: POST /api/pessos/{pessoaId}/enderecos7
+
 Listar endereços de uma pessoa: GET /api/pessoas/{pessoasId}/enderecos
+
 Definir endereço principal
+
 /api/pessoas/{pessoaId}/enderecos/{enderecoId}/principal
+
 
 -Exemplos de requisições: 
 Criar Pessoa: 
