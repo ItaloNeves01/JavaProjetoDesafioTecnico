@@ -9,7 +9,7 @@ Este documento fornece informações e uma visão geral do projeto do desafio ap
 focando principalmente no gerencimaento de pessoas e seus endereços
 
 
-#Requisitos de Sistema
+- #Requisitos de Sistema
 Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 Java Development Kit (JDK) 8 ou superior
@@ -17,11 +17,11 @@ Maven (para compilação e gerenciamento de dependências)
 Um ambiente de desenvolvimento integrado (IDE) como o Eclipse, IntelliJ IDEA ou Spring Tool Suite (STS)
 
 
-#Configuração do banco de Dados
+- #Configuração do banco de Dados
 esse projeto utiliza banco de dados H2, com suas configurações definidas no arquivo
 src/main/resources/application.properties
 
-#Execução do projeto pelo terminal
+- #Execução do projeto pelo terminal
 No diretorio Raiz, execute o comando Maven para compilar o projeto
 mvn clean install
 
@@ -31,7 +31,7 @@ mvn spring-boot:run
 A APLICAÇÃO SERÁ EXECUTADA NA PORTA PADRÃO 8080.
 
 
-#Api e seus Endpoints:
+- #Api e seus Endpoints:
 
 ##Pessoas:
 Criar pessoa: POST /api/pessoas
