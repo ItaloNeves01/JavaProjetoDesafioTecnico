@@ -6,6 +6,10 @@ Teste Técnico - Back End - Attornatus
 
 ########################Documentação#################################
 
+- **Dependencias necessarias**
+Certifique-se de que você tenha o Spring Boot instalado e crie um novo projeto Spring Boot usando o Spring Initializr (https://start.spring.io/).
+Spring Web, Spring Data JPA, H2 Database e Spring Boot DevTools.
+
 Este documento fornece informações e uma visão geral do projeto do desafio apresentado para a vaga de trabalho
 focando principalmente no gerencimaento de pessoas e seus endereços
 
